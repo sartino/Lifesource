@@ -49,6 +49,10 @@ body {
     padding-bottom: 13%;
 }
 
+.left {
+    text-align: left;
+}
+
 /*.con {
     background-image: url('../images/connie.jpg');
     background-size: 100% 100%;
