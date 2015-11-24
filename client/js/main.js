@@ -21,5 +21,29 @@ myApp.config(['$routeProvider', function($routeProvider) {
 	.when('/muriel', {
 		templateUrl : 'views/muriel.html',
 		controller  : 'blogdetailController'
+	})
+	.when('/mbct', {
+		templateUrl : 'views/mbct.html',
+		controller  : 'newpostController'
+	})
+	.when('/fees', {
+		templateUrl : 'views/fees.html',
+		controller  : 'blogdetailController'
+	})
+	.when('/imago', {
+		templateUrl : 'views/imago.html',
+		controller  : 'newpostController'
+	})
+	.when('/appt', {
+		templateUrl : 'views/appt.html',
+		controller  : 'newpostController'
+	})
+	.when('/forms', {
+		templateUrl : 'views/forms.html',
+		controller  : 'newpostController'
+	})
+	.when('/directions', {
+		templateUrl : 'views/directions.html',
+		controller  : 'newpostController'
 	});
 }]);
