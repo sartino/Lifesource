@@ -61,6 +61,10 @@ body {
     text-align: center;
 }
 
+.hr {
+    border-width: 3px;
+}
+
 /*.con {
     background-image: url('../images/connie.jpg');
     background-size: 100% 100%;
