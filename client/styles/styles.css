@@ -76,13 +76,18 @@ body {
 .map embed {
     position: absolute;
     top: 0;
-    left: 10%;
-    width: 80%;
+    left: 15%;
+    width: 65%;
     height: 70%;
 }
 
 .jumbotron {
     background-color: #A5D5E6;
+}
+
+.book {
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 /*.blue {
