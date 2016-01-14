@@ -16,10 +16,10 @@ body {
     background-color: lightgrey;
 }
 
-.container-fluid {
+/*.container-fluid {
     position: relative;
     width: 100%;
-}
+}*/
 
 .container-fluid h1 {
     position: absolute;
@@ -33,10 +33,31 @@ body {
     color: white;
 }
 
+.stretch {
+    position: relative;
+    height: 800px;
+    background-image: url('../images/green-forest.jpg');
+    background-size: auto 1000px;
+    background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 500px) {
     .container-fluid h1 {
         font-size: 2em;
     }
+    .stretch {
+    /*position: relative;*/
+    /*height: 800px;*/
+    /*background-image: url('../images/green-forest.jpg');*/
+    background-size: auto 900px;
+    /*background-position: top center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;*/
+}
 }
 
 .lead {
@@ -89,7 +110,3 @@ body {
     padding-right: 10%;
     padding-bottom: 5%;
 }
-
-/*.blue {
-    background-color: #90C3D4;
-}*/
